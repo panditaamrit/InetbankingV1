@@ -1,0 +1,16 @@
+14:44:30.532 [main] INFO  java.lang.Class - URL is opened
+14:44:30.931 [main] INFO  java.lang.Class - Entered Username
+14:44:31.204 [main] INFO  java.lang.Class - Entered password
+14:44:38.707 [main] INFO  java.lang.Class - Login test passed
+14:45:25.833 [main] INFO  java.lang.Class - URL is opened
+14:45:26.230 [main] INFO  java.lang.Class - Entered Username
+14:45:26.459 [main] INFO  java.lang.Class - Entered password
+14:45:33.427 [main] INFO  java.lang.Class - Login test passed
+14:48:48.812 [main] ERROR java.lang.Class - URL is opened
+14:48:49.211 [main] ERROR java.lang.Class - Entered Username
+14:48:49.516 [main] INFO  java.lang.Class - Entered password
+14:48:58.035 [main] INFO  java.lang.Class - Login test passed
+14:53:17.739 [main] ERROR java.lang.Class - URL is opened
+14:53:18.287 [main] ERROR java.lang.Class - Entered Username
+14:53:18.673 [main] INFO  java.lang.Class - Entered password
+14:53:20.745 [main] INFO  java.lang.Class - Login test passed
