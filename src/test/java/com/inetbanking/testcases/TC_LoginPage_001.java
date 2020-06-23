@@ -10,7 +10,7 @@ public class TC_LoginPage_001 extends BaseClass {
 
 
 
-@Test
+@Test(groups="mobile")
 public void logintest() throws IOException
 {
 

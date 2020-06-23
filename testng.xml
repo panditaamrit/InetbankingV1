@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
   
-<suite name="Inetbanking" >
+<suite name="Inetbanking" parallel="tests" >
 <listeners>
 <listener class-name="com.inetbanking.utilities.Reporting"/>
 </listeners>
@@ -10,6 +10,12 @@
     	<classes>
        		<class name="com.inetbanking.testcases.TC_LoginPage_001" /> 
        		<!-- <class name="com.inetbanking.testcases.TC_LoginDDT_002" />-->
+    	</classes>
+  </test>
+   <test name="banking app test DDT" >
+  		<parameter name="browser" value="chrome"/>
+    	<classes>
+       		<class name="com.inetbanking.testcases.TC_LoginDDT_002" />
     	</classes>
   </test>
   
